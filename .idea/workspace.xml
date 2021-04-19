@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66b31378-46ea-4557-af2c-0e4de2ef5cf3" name="Default Changelist" comment="" />
+    <list default="true" id="66b31378-46ea-4557-af2c-0e4de2ef5cf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/db/Conexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/db/Consultas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/Formulario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/driver/DriverContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/driver/DriverManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/driver/Navegador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/excel/AccionesExcel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/excel/DataDriven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/excel/Metodos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/excel/PcfactoryExcel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/reportepdf/EstadoPrueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/reportepdf/ReportePdf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/reportepdf/tsoft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/sql/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/xml/LeerPasos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fea/Cotizacion.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/feature/demoQA.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/feature/demoQA.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/BuscarProducto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/DetalleProducto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/HomeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/HomeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/Registro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step/CalculatorRunTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step/Cotizacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/DemoQA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/DemoQA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/MetodosGenericos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/MetodosGenericos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Web.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/calculator/features/calculator.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/calculator/features/calculatorParam.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/cucumber-base.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/driver/DriverContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/driver/DriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/driver/Navegador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/excel/Metodos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/reportepdf/EstadoPrueba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/reportepdf/ReportePdf$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/reportepdf/ReportePdf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/sql/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/xml/LeerPasos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/cucumber-base.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/calculator/features/calculator.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/calculator/features/calculatorParam.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/BuscarProducto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/DetalleProducto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/Home.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/HomeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/HomeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/Registro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/Registro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step/CalculatorRunTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step/Cotizacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/DemoQA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/DemoQA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/MetodosGenericos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/MetodosGenericos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Web.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/Web.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +79,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -24,9 +91,10 @@
   </component>
   <component name="ProjectId" id="1qUj2ixFRgHEVpmMgaXZSXlE9NM" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../curso-selenium3/common-selenium-ejemplo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -120,13 +188,13 @@
       </method>
     </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit">
-      <module name="cucumber-base" />
+      <module name="common" />
       <shortenClasspath name="MANIFEST" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="runner.Runner" />
       <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,6 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Metodos" />
+      <item itemvalue="Application.Query" />
+      <item itemvalue="JUnit.Runner" />
+      <item itemvalue="JUnit.Runner (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Metodos" />
@@ -167,10 +241,25 @@
       <workItem from="1618321649172" duration="35720000" />
       <workItem from="1618405929993" duration="5921000" />
       <workItem from="1618500929816" duration="6982000" />
+      <workItem from="1618783734616" duration="1547000" />
+      <workItem from="1618785788906" duration="13150000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

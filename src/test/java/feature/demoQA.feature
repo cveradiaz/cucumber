@@ -1,4 +1,4 @@
-Feature: Registro de usuario
+Feature: Registro de usuario, Completar formulario
 
   @Test_01
   Scenario: Registrar un usuario
@@ -12,5 +12,17 @@ Feature: Registro de usuario
       | userName                    | claverad                |
       | password                    | Ts@ft2022               |
 
-    Then la cotizacion debe mostrar 8 productos  en el carro de compras
-    And mostrar el detalle y valor total a pagar
+    Then validar mensaje de registro del usuario
+
+  @Test_02
+  Scenario: LLenar formulario
+    Given el usuario ingresa a la pagina de DemoQA
+    And  va a llenar formulario
+    And ingresa los siguientes datos para completar formulario
+
+      | NombreCampo                 | valor                   |
+      | first name                  | clau                    |
+      | last name                   | vera                    |
+      | userName                    | claverad                |
+      | password                    | Ts@ft2022               |
+

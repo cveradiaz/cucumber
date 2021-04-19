@@ -1,27 +1,28 @@
 package stepDefs;
 
+import constants.Navegador;
 import cucumber.api.DataTable;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
-import org.openqa.selenium.WebDriver;
-import page.Home;
+import cucumber.api.java.en.Then;
+import page.Formulario;
 import page.HomeDemo;
 import page.Registro;
 
-import static config.driver.DriverContext.setUp;
-import static config.reportepdf.ReportePdf.nombreClase;
+import java.util.List;
+
+import static config.Constants.urlDemoQa;
+import static drivers.DriverContext.setUp;
 
 public class DemoQA {
     HomeDemo homeDemo;
     Registro registro;
+    Formulario formulario;
 
     @Given("^el usuario ingresa a la pagina de DemoQA$")
     public void el_usuario_ingresa_a_la_pagina_de_demoqa() throws Throwable {
-        nombreClase(this.getClass().getSimpleName());
-        setUp( "chrome" );
+        setUp( Navegador.Chrome, urlDemoQa );
         homeDemo = new HomeDemo();
-        homeDemo.navigateToHomePage();
     }
 
     @And("^va a registrar usuario$")
@@ -32,8 +33,31 @@ public class DemoQA {
 
     @And("^ingresa los siguientes datos para realizar el registro$")
     public void ingresa_los_siguientes_datos_para_realizar_el_registro(DataTable dataTable) throws Throwable {
-        throw new PendingException();
+        List<List<String>> dato = dataTable.raw();
+        for (int i = 1; i < dato.size(); i++) {
+
+            registro.registrarUsuario(  dato.get( i ).get( 1 ),
+                                        dato.get( i+1 ).get( 1 ),
+                                        dato.get( i+2 ).get( 1 ),
+                                        dato.get( i+3 ).get( 1 ));
+        }
+
+
+
     }
 
+    @Then("validar mensaje de registro del usuario")
+    public void validarMensajeDeRegistroDelUsuario() {
 
+    }
+
+    @And("va a llenar formulario")
+    public void vaALlenarFormulario() {
+        formulario = new Formulario();
+        formulario.navigateToFormulario();
+    }
+
+    @And("ingresa los siguientes datos para completar formulario")
+    public void ingresaLosSiguientesDatosParaCompletarFormulario() {
+    }
 }
