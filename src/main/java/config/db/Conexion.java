@@ -6,12 +6,12 @@ import java.sql.SQLException;
 
 public class Conexion {
 
-    Connection connection;
-    String url = "jdbc:mysql://127.0.0.1:3306/productos_pcfactory";
-    String user = "root";
-    String pass = "admin";
+    static Connection connection;
+    static String url = "jdbc:mysql://127.0.0.1:3306/demoqa";
+    static String user = "root";
+    static String pass = "1234";
 
-    public Connection getConnection() {
+    public static Connection getConnection() {
         try {
             connection = DriverManager.getConnection(url, user, pass);
             return connection;

@@ -45,8 +45,6 @@
             <artifactId>cucumber-java</artifactId>
             <version>1.2.5</version>
         </dependency>
-
-
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -81,11 +79,22 @@
             <artifactId>commons-io</artifactId>
             <version>2.4</version>
         </dependency>
-
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>3.16</version>
         </dependency>
+        <dependency>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+            <version>2.1.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.2captcha/2captcha-java -->
+        <dependency>
+            <groupId>com.github.2captcha</groupId>
+            <artifactId>2captcha-java</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
     </dependencies>
 </project>
